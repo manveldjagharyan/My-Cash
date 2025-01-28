@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-image: url(./Instagram\ story\ -\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#logo{
+    color: black;
+    font-size: 45px;
+    margin: 20px auto;
+}
+
+.lock-screen {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: .4s;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.password-display {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    transition: .4s;
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 60px;
+    font-size: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #ff0000;
+}
+
+.clear {
+    background: #f44336;
+    transition: .4s;
+}
+
+.clear:hover {
+    background: #ff0400;
+}
+
+.password-text {
+    margin: 5px auto;
+}
